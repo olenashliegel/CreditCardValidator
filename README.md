@@ -38,3 +38,11 @@ Code: doublingEveryOtherDigit();
 const textArray =[4,1,0,2,0,8,0,8,8,0,4,3,5,6,2];
 creditCardLength(textArray);
 Expected Output: [8,1,0,2,0,8,0,8,16,0,8,3,10,6,4]
+
+
+Describe: addingDigitsOfDoubleDigitNumbers()
+Test: "It should double every other element from the end of Array"
+Code: doublingEveryOtherDigit();
+const textArray =[18, 10, 11, 12, 13, 8, 0, 8, 8, 0, 4, 3, 5, 6, 2];
+creditCardLength(textArray);
+Expected Output: [9, 1, 2, 3, 4, 8, 0, 8, 8, 0, 4, 3, 5, 6, 2]
